@@ -1,52 +1,35 @@
-# Elevate-Lab-intern-task7
-
 Amazon Sales Data Analysis - Project Summary
 Project Objective
 To analyze Amazon sales data by cleaning, transforming, storing, and visualizing it to gain insights into product performance and revenue generation.
-
+________________________________________
 Key Steps in the Project
-Data Loading & Storage:
+1.	Data Loading & Storage:
+o	Loads data from a CSV file (amazon.csv).
+o	Saves it into an SQLite database (sales_data.db).
 
-Loads data from a CSV file (amazon.csv).
+3.	Data Cleaning:
+o	Removes unwanted symbols (₹, commas) from numeric columns.
+o	Converts string values to numeric data types (float, int).
+o	Drops rows with missing essential information.
 
-Saves it into an SQLite database (sales_data.db).
-
-Data Cleaning:
-
-Removes unwanted symbols (₹, commas) from numeric columns.
-
-Converts string values to numeric data types (float, int).
-
-Drops rows with missing essential information.
-
-Data Transformation:
-
-Renames columns (product_name → product, discounted_price → price, etc.).
-
-Calculates revenue using:
+5.	Data Transformation:
+o	Renames columns (product_name → product, discounted_price → price, etc.).
+o	Calculates revenue using:
 revenue = quantity × price.
 
-Database Querying:
+6.	Database Querying:
+o	Executes SQL queries to summarize sales data.
+o	Identifies the Top 10 products based on total revenue.
 
-Executes SQL queries to summarize sales data.
-
-Identifies the Top 10 products based on total revenue.
-
-Visualization:
-
-Bar Chart: Displays top 5 products by revenue.
-
-Scatter Plot: Shows correlation between quantity sold and revenue.
-
-Histogram: Reveals revenue distribution across products.
-
-Pie Chart: Illustrates revenue share among the top 5 products.
-
+7.	Visualization:
+o	Bar Chart: Displays top 10 products by revenue.
+o	Scatter Plot: Shows correlation between quantity sold and revenue.
+o	Histogram: Reveals revenue distribution across products.
+o	Pie Chart: Illustrates revenue share among the top 5 products.
+________________________________________
 Business Insight Goals
-Identify best-selling and most profitable products.
+•	Identify best-selling and most profitable products.
+•	Understand sales trends and product demand patterns.
+•	Provide visual tools for interpreting revenue data.
+•	Support strategic decisions in pricing, inventory, and marketing.
 
-Understand sales trends and product demand patterns.
-
-Provide visual tools for interpreting revenue data.
-
-Support strategic decisions in pricing, inventory, and marketing.
