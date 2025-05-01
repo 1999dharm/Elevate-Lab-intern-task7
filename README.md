@@ -22,7 +22,7 @@ o	Executes SQL queries to summarize sales data.
 o	Identifies the Top 10 products based on total revenue.
 
 7.	Visualization:
-o	Bar Chart: Displays top 10 products by revenue.
+o	Bar Chart: Displays top 5 products by revenue.
 o	Scatter Plot: Shows correlation between quantity sold and revenue.
 o	Histogram: Reveals revenue distribution across products.
 o	Pie Chart: Illustrates revenue share among the top 5 products.
